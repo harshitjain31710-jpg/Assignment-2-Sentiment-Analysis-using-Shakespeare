@@ -3,6 +3,7 @@ negative_words=["unswept","besmeared","sluttish","wasteful","war","overturn","br
 sentiment=0
 lower_list=[]
 txt=open("H:\Assignment-2-Sentiment-Analysis-using-Shakespeare\sonet.txt","r")
+output=open("H:\Assignment-2-Sentiment-Analysis-using-Shakespeare\output.txt","w")
 txt_list=txt.readlines()
 for i in txt_list:
     i=i.lower()
@@ -13,9 +14,9 @@ for i in txt_list:
         if j in negative_words:
             sentiment-=1
     if sentiment>0:
-        print(f"line={i},sentiment=positive")
+        output.write(f"line={i},sentiment=positive\n")
     if sentiment<0:
-        print(f"line={i},sentiment=negative")
+        output.write(f"line={i},sentiment=negative\n")
     if sentiment==0:
-        print(f"line={i},sentiment=neutral")
+        output.write(f"line={i},sentiment=neutral\n")
     sentiment=0
