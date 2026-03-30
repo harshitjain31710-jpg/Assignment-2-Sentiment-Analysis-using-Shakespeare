@@ -62,57 +62,13 @@ Solution:
 
 This can be improved by using larger pre-built sentiment lexicons or databases. In more advanced systems, word embeddings or vector databases can be used to capture richer vocabulary.
 
-## Output
+## Sample Output
 
 line=not marble nor the gilded monuments
 
 sentiment=neutral
 
 line=of princes shall outlive this powerful rhyme
-
-sentiment=positive
-
-line=but you shall shine more bright in these contents
-
-sentiment=positive
-
-line=than unswept stone besmeared with sluttish time
-
-sentiment=negative
-
-line=when wasteful war shall statues overturn
-
-sentiment=negative
-
-line=and broils root out the work of masonry
-
-sentiment=negative
-
-line=nor mars his sword nor war s quick fire shall burn
-
-sentiment=negative
-
-line=the living record of your memory
-
-sentiment=positive
-
-line=gainst death and all oblivious enmity
-
-sentiment=negative
-
-line=shall you pace forth your praise shall still find room
-
-sentiment=positive
-
-line=even in the eyes of all posterity
-
-sentiment=positive
-
-line=that wear this world out to the ending doom
-
-sentiment=negative
-
-line=so till the judgement that yourself arise
 
 sentiment=positive
 
