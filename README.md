@@ -1,6 +1,6 @@
 # Assignment-2-Sentiment-Analysis-using-Shakespeare
 
-Approach:
+## Approach:
 
 - Removed punctuation manually (cause given txt file was short and to not unecessarily overengineer project) 
 
@@ -32,7 +32,7 @@ Approach:
 
 1. Context-dependent meaning of words
 
-Problem:
+## Problem:
 
 Some words can have different meanings depending on context. For example, a word like "fire" may represent destruction (negative) or passion (positive), but the system assigns a fixed sentiment.
 
@@ -60,7 +60,7 @@ Solution:
 
 This can be improved by using larger pre-built sentiment lexicons or databases. In more advanced systems, word embeddings or vector databases can be used to capture richer vocabulary.
 
-Results
+## Output
 
 line=not marble nor the gilded monuments
 
@@ -114,7 +114,7 @@ line=so till the judgement that yourself arise
 
 sentiment=positive
 
-Learnings
+## Learnings
 
 - Importance of text preprocessing in NLP
 
@@ -126,7 +126,7 @@ Learnings
 
 - Difference between rule-based systems and machine learning models
 
-- How to set up and run this assignment.
+## How to set up and run this assignment.
 
 - Clone the repository:
 
@@ -140,7 +140,7 @@ Learnings
 
       python main.py
 
-Files
+## Files
 
 - main.py → sentiment analysis code
 
