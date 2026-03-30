@@ -27,11 +27,11 @@ for line in txt_list:
 
     #Block5-Writting output
     if sentiment>0:#Checking sentiment value of respective line
-        output.write(f"line:{line},sentiment:positive\n")#Storing line and sentiment in output.txt file
+        output.write(f"line:{line}sentiment:positive\n")#Storing line and sentiment in output.txt file
     elif sentiment<0:#Checking sentiment value of respective line
-        output.write(f"line:{line},sentiment:negative\n")#Storing line and sentiment in output.txt file
+        output.write(f"line:{line}sentiment:negative\n")#Storing line and sentiment in output.txt file
     elif sentiment==0:#Checking sentiment value of respective line
-        output.write(f"line:{line},sentiment:neutral\n")#Storing line and sentiment in output.txt file
+        output.write(f"line:{line}sentiment:neutral\n")#Storing line and sentiment in output.txt file
     sentiment=0#resetting sentiment value for each respective line
 
 #Block6-Closing files
