@@ -30,9 +30,11 @@
   
 - print final result
 
+## Possible Improvements:
+
 1. Context-dependent meaning of words
 
-## Problem:
+Problem:
 
 Some words can have different meanings depending on context. For example, a word like "fire" may represent destruction (negative) or passion (positive), but the system assigns a fixed sentiment.
 
