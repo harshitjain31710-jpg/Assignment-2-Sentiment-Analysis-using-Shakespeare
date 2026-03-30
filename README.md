@@ -111,6 +111,7 @@ Sentiment: Positive
 - README.md → project documentation
 
 ##Result
+
 -The system successfully classifies lines into positive, negative, and neutral categories based on word-level sentiment scoring. 
 
 -Despite the presence of negative words like "death" and "war", many lines are classified as positive due to stronger positive terms such as "shine", "bright", and "praise".
