@@ -110,7 +110,7 @@ Sentiment: Positive
 
 - README.md → project documentation
 
-##Result
+## Result
 
 -The system successfully classifies lines into positive, negative, and neutral categories based on word-level sentiment scoring. 
 
