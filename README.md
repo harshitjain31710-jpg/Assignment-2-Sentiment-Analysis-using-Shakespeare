@@ -1,8 +1,14 @@
 # Assignment-2-Sentiment-Analysis-using-Shakespeare
 
+## Assignment-2-Sentiment-Analysis-using-Shakespeare
+
+A simple rule-based sentiment analysis system applied to Shakespeare text. 
+This project uses basic NLP techniques without any machine learning models 
+to classify text as positive, negative, or neutral.
+
 ## Approach:
 
-- Removed punctuation manually (cause given txt file was short and to not unecessarily overengineer project) 
+- Removed punctuation manually (since the text file was small, punctuation was removed manually to avoid unnecessary overengineering) 
 
 - Read text from txt file 
 
@@ -18,7 +24,7 @@
   
   - A list of negative words
   
-    - if true substract one from sentiment of sentence
+    - if true subtract one from sentiment of sentence
 
 - Classify sentiment:
 
@@ -30,7 +36,7 @@
   
 - print final result
 
-## Possible Improvements:
+## Limitations and Possible Improvements
 
 1. Context-dependent meaning of words
 
@@ -64,15 +70,15 @@ This can be improved by using larger pre-built sentiment lexicons or databases. 
 
 ## Sample Output
 
-line=not marble nor the gilded monuments
+Line: not marble nor the gilded monuments  
+Sentiment: Neutral  
 
-sentiment=neutral
+Line: of princes shall outlive this powerful rhyme  
+Sentiment: Positive  
 
-line=of princes shall outlive this powerful rhyme
 
-sentiment=positive
+## Key Learnings
 
-## Learnings
 
 - Importance of text preprocessing in NLP
 
@@ -105,3 +111,9 @@ sentiment=positive
 - sonet.txt → Shakespeare text
 
 - README.md → project documentation
+
+##Result
+-The system successfully classifies lines into positive, negative, and neutral categories based on word-level sentiment scoring. 
+
+-Despite the presence of negative words like "death" and "war", many lines are classified as positive due to stronger positive terms such as "shine", "bright", and "praise".
+
