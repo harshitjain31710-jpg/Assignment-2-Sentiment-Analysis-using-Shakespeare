@@ -2,33 +2,33 @@
 
 Approach:
 
--Removed punctuation manually (cause given txt file was short and to not unecessarily overengineer project) 
+- Removed punctuation manually (cause given txt file was short and to not unecessarily overengineer project) 
 
--Read text from txt file 
+- Read text from txt file 
 
--Convert all text to lowercase
+- Convert all text to lowercase
 
--Split text into words (tokenization)
+- Split text into words (tokenization)
 
--Compare each word with:
+- Compare each word with:
 
-  -A list of positive words
+  - A list of positive words
   
-    -if true add one to sentiment of sentence
+    - if true add one to sentiment of sentence
   
-  -A list of negative words
+  - A list of negative words
   
-    -if true substract one from sentiment of sentence
+    - if true substract one from sentiment of sentence
 
--Classify sentiment:
+- Classify sentiment:
 
-  -Positive (sentiment > 0)
+  - Positive (sentiment > 0)
   
-  -Negative (sentiment < 0)
+  - Negative (sentiment < 0)
   
-  -Neutral (sentiment = 0)
+  - Neutral (sentiment = 0)
   
--print final result
+- print final result
 
 1. Context-dependent meaning of words
 
@@ -63,73 +63,87 @@ This can be improved by using larger pre-built sentiment lexicons or databases. 
 Results
 
 line=not marble nor the gilded monuments
-,sentiment=neutral
+
+sentiment=neutral
 
 line=of princes shall outlive this powerful rhyme
-,sentiment=positive
+
+sentiment=positive
 
 line=but you shall shine more bright in these contents
-,sentiment=positive
+
+sentiment=positive
 
 line=than unswept stone besmeared with sluttish time
-,sentiment=negative
+
+sentiment=negative
 
 line=when wasteful war shall statues overturn
-,sentiment=negative
+
+sentiment=negative
 
 line=and broils root out the work of masonry
-,sentiment=negative
+
+sentiment=negative
 
 line=nor mars his sword nor war s quick fire shall burn
-,sentiment=negative
+
+sentiment=negative
 
 line=the living record of your memory
-,sentiment=positive
 
-line=gainst death and all oblivious enmity,sentiment=negative
+sentiment=positive
+
+line=gainst death and all oblivious enmity
+
+sentiment=negative
 
 line=shall you pace forth your praise shall still find room
-,sentiment=positive
+
+sentiment=positive
 
 line=even in the eyes of all posterity
-,sentiment=positive
+
+sentiment=positive
 
 line=that wear this world out to the ending doom
-,sentiment=negative
+
+sentiment=negative
 
 line=so till the judgement that yourself arise
-,sentiment=positive
+
+sentiment=positive
 
 Learnings
 
--Importance of text preprocessing in NLP
+- Importance of text preprocessing in NLP
 
--How tokenization works
+- How tokenization works
 
--How rule-based systems operate
+- How rule-based systems operate
 
--Limitations of simple word-based sentiment analysis
+- Limitations of simple word-based sentiment analysis
 
--Difference between rule-based systems and machine learning models
+- Difference between rule-based systems and machine learning models
 
--How to set up and run this assignment.
+- How to set up and run this assignment.
 
--Clone the repository:
+- Clone the repository:
 
-    git clone https://github.com/harshitjain31710-jpg/Assignment-2-Sentiment-Analysis-using-Shakespeare.git
+      git clone https://github.com/harshitjain31710-jpg/Assignment-2-Sentiment-Analysis-using-Shakespeare.git
 
--Navigate to the folder:
+- Navigate to the folder:
 
-    cd Assignment-2-Sentiment-Analysis-using-Shakespeare
+      cd Assignment-2-Sentiment-Analysis-using-Shakespeare
 
--Run the script:
+- Run the script:
 
-    python main.py
+      python main.py
 
 Files
 
--main.py → sentiment analysis code
+- main.py → sentiment analysis code
 
--sonet.txt → Shakespeare text
+- sonet.txt → Shakespeare text
 
--README.md → project documentation
+- README.md → project documentation
