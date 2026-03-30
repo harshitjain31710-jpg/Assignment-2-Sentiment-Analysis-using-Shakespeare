@@ -1,7 +1,5 @@
 # Assignment-2-Sentiment-Analysis-using-Shakespeare
 
-## Assignment-2-Sentiment-Analysis-using-Shakespeare
-
 A simple rule-based sentiment analysis system applied to Shakespeare text. 
 This project uses basic NLP techniques without any machine learning models 
 to classify text as positive, negative, or neutral.
